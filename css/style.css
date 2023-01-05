@@ -78,7 +78,7 @@ header h3 {
 
 }
 
-.donate-today .title {
+.title {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -88,7 +88,7 @@ header h3 {
     color: #121212;
 }
 
-.donate-today .description {
+.description {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -100,6 +100,7 @@ header h3 {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 50px;
+
 }
 
 .donation-options {
@@ -138,5 +139,54 @@ header h3 {
     margin-top: 60px;
     padding: 10px 320px;
     margin-bottom: 25px;
+    outline: 0;
 
+}
+
+
+/* ========== Donate plan ========== */
+.donate-plan {
+    padding: 50px 0;
+}
+.plans {
+    display: flex;
+    gap: 52px;
+}
+
+.plans .single-item {
+    padding: 54px 23px;
+    border: 0;
+    border-radius: 5px;
+}
+.single-item:nth-child(1) {
+    background: rgba(79, 157, 166, 0.1);
+}
+.single-item:nth-child(2) {
+    background: rgba(255, 89, 89, 0.1);
+}
+.single-item:nth-child(3) {
+    background: #fff4d6;
+}
+
+.single-item img {
+    margin-bottom: 30px;
+}
+
+.single-item h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+    margin-bottom: 16px;
+}
+
+.single-item p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
 }
