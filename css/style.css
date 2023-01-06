@@ -25,6 +25,31 @@ font-family: 'Poppins', sans-serif; */
 
 }
 
+.title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+}
+
+.description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+    width: 690px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
 
 
 /* ======== header section ======== */
@@ -78,30 +103,7 @@ header h3 {
 
 }
 
-.title {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 54px;
-    text-align: center;
-    color: #121212;
-}
 
-.description {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    color: #707070;
-    width: 690px;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 50px;
-
-}
 
 .donation-options {
     display: flex;
@@ -148,6 +150,7 @@ header h3 {
 .donate-plan {
     padding: 50px 0;
 }
+
 .plans {
     display: flex;
     gap: 52px;
@@ -158,12 +161,15 @@ header h3 {
     border: 0;
     border-radius: 5px;
 }
+
 .single-item:nth-child(1) {
     background: rgba(79, 157, 166, 0.1);
 }
+
 .single-item:nth-child(2) {
     background: rgba(255, 89, 89, 0.1);
 }
+
 .single-item:nth-child(3) {
     background: #fff4d6;
 }
@@ -189,4 +195,86 @@ header h3 {
     font-size: 16px;
     line-height: 24px;
     color: #707070;
+}
+
+/* ======contribute section style ===== */
+.contribute {
+    display: flex;
+    gap: 83px;
+    max-width: 1020px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 80px 0;
+
+}
+
+.contribute .contribute-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+}
+
+.contribute p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin: 20px 0;
+}
+
+.contribute img {
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+
+}
+
+.contribute .donate-btn {
+    width: 230px !important;
+    letter-spacing: 0;
+}
+
+/* ==== subscribe section css =====  */
+.subscribe {
+    padding: 100px 0;
+}
+
+.subscription-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #FFF4D6;
+}
+
+.subscribe-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 42px;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #FF5959;
+    height: 48px;
+
+}
+.subscribe input[type="email"] { 
+    height: 48px;
+    width: 275px;
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: 0;
+    padding-left: 20px;
 }
