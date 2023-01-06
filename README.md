@@ -1,2 +1,1 @@
-# Donation-site
-This side for practice on milestone 1
+live site link: https://hasiburrahman00.github.io/Donation-site/
